@@ -1,0 +1,11 @@
+user_id,skills,experience_years,preferred_category
+1,"python, machine learning, statistics",3,"Tech"
+2,"java, sql, javascript",2,"Tech"
+3,"excel, sql, marketing",4,"Business"
+4,"html, css, javascript",1,"Tech"
+5,"finance, excel, modeling",5,"Finance"
+6,"hr, communication, recruitment",3,"HR"
+7,"figma, user research, design",2,"Design"
+8,"docker, aws, python",4,"Tech"
+9,"product management, agile",3,"Business"
+10,"python, sql, analytics",2,"Tech"
