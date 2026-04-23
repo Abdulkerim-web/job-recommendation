@@ -1,176 +1,184 @@
-% =====================
-% JOB RECOMMENDATION SYSTEM
-% Using Prolog for rule-based recommendation
-% =====================
+job(job_1, 'Data Scientist', 'Tech', 'Analyze data and build models').
+job_skill(job_1, 'python').
+job_skill(job_1, 'machine learning').
+job_skill(job_1, 'statistics').
+job(job_2, 'Software Engineer', 'Tech', 'Develop software applications').
+job_skill(job_2, 'java').
+job_skill(job_2, 'python').
+job_skill(job_2, 'sql').
+job(job_3, 'Data Analyst', 'Tech', 'Analyze business data').
+job_skill(job_3, 'excel').
+job_skill(job_3, 'sql').
+job_skill(job_3, 'python').
+job(job_4, 'Marketing Manager', 'Business', 'Manage marketing campaigns').
+job_skill(job_4, 'marketing').
+job_skill(job_4, 'social media').
+job_skill(job_4, 'analytics').
+job(job_5, 'Product Manager', 'Business', 'Oversee product development').
+job_skill(job_5, 'product management').
+job_skill(job_5, 'agile').
+job_skill(job_5, 'communication').
+job(job_6, 'Web Developer', 'Tech', 'Build websites').
+job_skill(job_6, 'html').
+job_skill(job_6, 'css').
+job_skill(job_6, 'javascript').
+job(job_7, 'DevOps Engineer', 'Tech', 'Manage infrastructure').
+job_skill(job_7, 'docker').
+job_skill(job_7, 'kubernetes').
+job_skill(job_7, 'aws').
+job(job_8, 'UX Designer', 'Design', 'Design user interfaces').
+job_skill(job_8, 'figma').
+job_skill(job_8, 'sketch').
+job_skill(job_8, 'user research').
+job(job_9, 'Financial Analyst', 'Finance', 'Analyze financial data').
+job_skill(job_9, 'excel').
+job_skill(job_9, 'finance').
+job_skill(job_9, 'modeling').
+job(job_10, 'HR Specialist', 'Hr', 'Manage human resources').
+job_skill(job_10, 'hr').
+job_skill(job_10, 'recruitment').
+job_skill(job_10, 'employee relations').
+job(job_11, 'Business Analyst', 'Business', 'Evaluate business needs and processes').
+job_skill(job_11, 'business analysis').
+job_skill(job_11, 'excel').
+job_skill(job_11, 'communication').
+job(job_12, 'Quality Assurance Engineer', 'Tech', 'Test software for bugs and reliability').
+job_skill(job_12, 'testing').
+job_skill(job_12, 'automation').
+job_skill(job_12, 'selenium').
+job(job_13, 'Customer Support Specialist', 'Support', 'Help customers solve product issues').
+job_skill(job_13, 'customer service').
+job_skill(job_13, 'communication').
+job_skill(job_13, 'troubleshooting').
+job(job_14, 'Graphic Designer', 'Design', 'Create visual designs and branding').
+job_skill(job_14, 'photoshop').
+job_skill(job_14, 'illustrator').
+job_skill(job_14, 'creativity').
+job(job_15, 'Content Writer', 'Business', 'Write website and marketing content').
+job_skill(job_15, 'writing').
+job_skill(job_15, 'seo').
+job_skill(job_15, 'research').
+job(job_16, 'Sales Representative', 'Business', 'Sell products and manage client relationships').
+job_skill(job_16, 'sales').
+job_skill(job_16, 'negotiation').
+job_skill(job_16, 'communication').
+job(job_17, 'Social Media Manager', 'Business', 'Plan and execute social campaigns').
+job_skill(job_17, 'social media').
+job_skill(job_17, 'content creation').
+job_skill(job_17, 'analytics').
+job(job_18, 'IT Support Technician', 'Tech', 'Support company hardware and software').
+job_skill(job_18, 'troubleshooting').
+job_skill(job_18, 'networking').
+job_skill(job_18, 'customer service').
+job(job_19, 'Cybersecurity Analyst', 'Tech', 'Protect systems and networks').
+job_skill(job_19, 'security').
+job_skill(job_19, 'risk assessment').
+job_skill(job_19, 'incident response').
+job(job_20, 'Database Administrator', 'Tech', 'Manage database performance and backups').
+job_skill(job_20, 'sql').
+job_skill(job_20, 'database administration').
+job_skill(job_20, 'performance tuning').
+job(job_21, 'Network Engineer', 'Tech', 'Design and maintain network systems').
+job_skill(job_21, 'networking').
+job_skill(job_21, 'routing').
+job_skill(job_21, 'switching').
+job(job_22, 'Operations Manager', 'Business', 'Coordinate business operations and logistics').
+job_skill(job_22, 'operations').
+job_skill(job_22, 'planning').
+job_skill(job_22, 'leadership').
+job(job_23, 'Recruitment Coordinator', 'Hr', 'Manage hiring and candidate communication').
+job_skill(job_23, 'recruiting').
+job_skill(job_23, 'communication').
+job_skill(job_23, 'interviewing').
+job(job_24, 'Training Specialist', 'Hr', 'Train employees on systems and skills').
+job_skill(job_24, 'training').
+job_skill(job_24, 'facilitation').
+job_skill(job_24, 'documentation').
+job(job_25, 'Legal Assistant', 'Legal', 'Support legal research and documentation').
+job_skill(job_25, 'legal research').
+job_skill(job_25, 'communication').
+job_skill(job_25, 'organization').
+job(job_26, 'Healthcare Coordinator', 'Healthcare', 'Coordinate patient care and records').
+job_skill(job_26, 'healthcare').
+job_skill(job_26, 'coordination').
+job_skill(job_26, 'communication').
+job(job_27, 'Data Engineer', 'Tech', 'Build data systems and pipelines').
+job_skill(job_27, 'python').
+job_skill(job_27, 'sql').
+job_skill(job_27, 'etl').
+job(job_28, 'Search Engine Optimization Specialist', 'Business', 'Improve website search rankings').
+job_skill(job_28, 'seo').
+job_skill(job_28, 'analytics').
+job_skill(job_28, 'content').
+job(job_29, 'Mobile App Developer', 'Tech', 'Build mobile applications').
+job_skill(job_29, 'swift').
+job_skill(job_29, 'kotlin').
+job_skill(job_29, 'react native').
+job(job_30, 'Project Coordinator', 'Business', 'Support project planning and delivery').
+job_skill(job_30, 'project coordination').
+job_skill(job_30, 'communication').
+job_skill(job_30, 'scheduling').
+job(job_31, 'Event Planner', 'Business', 'Organize events and manage logistics').
+job_skill(job_31, 'event planning').
+job_skill(job_31, 'coordination').
+job_skill(job_31, 'budgeting').
+job(job_32, 'Supply Chain Analyst', 'Logistics', 'Optimize supply chain processes').
+job_skill(job_32, 'supply chain').
+job_skill(job_32, 'analytics').
+job_skill(job_32, 'planning').
+job(job_33, 'Technical Writer', 'Business', 'Document technical systems and products').
+job_skill(job_33, 'technical writing').
+job_skill(job_33, 'documentation').
+job_skill(job_33, 'communication').
+job(job_34, 'Training Manager', 'Hr', 'Manage employee learning programs').
+job_skill(job_34, 'training').
+job_skill(job_34, 'leadership').
+job_skill(job_34, 'curriculum design').
+job(job_35, 'E-commerce Specialist', 'Business', 'Manage online selling channels').
+job_skill(job_35, 'ecommerce').
+job_skill(job_35, 'marketing').
+job_skill(job_35, 'analytics').
+job(job_36, 'Research Analyst', 'Business', 'Conduct market and industry research').
+job_skill(job_36, 'research').
+job_skill(job_36, 'analysis').
+job_skill(job_36, 'reporting').
+job(job_37, 'Business Development Manager', 'Business', 'Develop new business opportunities').
+job_skill(job_37, 'business development').
+job_skill(job_37, 'sales').
+job_skill(job_37, 'networking').
+job(job_38, 'Customer Success Manager', 'Support', 'Help customers get value from products').
+job_skill(job_38, 'customer success').
+job_skill(job_38, 'relationship management').
+job(job_39, 'Maintenance Technician', 'Operations', 'Maintain equipment and facilities').
+job_skill(job_39, 'maintenance').
+job_skill(job_39, 'repair').
+job_skill(job_39, 'troubleshooting').
+job(job_40, 'Executive Assistant', 'Business', 'Support executives with scheduling and communication').
+job_skill(job_40, 'administrative').
+job_skill(job_40, 'organization').
+job_skill(job_40, 'communication').
+job(job_41, 'Compliance Officer', 'Legal', 'Ensure legal and regulatory compliance').
+job_skill(job_41, 'compliance').
+job_skill(job_41, 'auditing').
+job_skill(job_41, 'reporting').
+user_skill(user1, 'python').
+user_skill(user1, 'sql').
+user_skill(user1, 'machine learning').
+user_skill(user1, 'communication').
+user_skill(user1, 'project management').
 
-% =====================
-% JOB FACTS
-% =====================
-job('Data Scientist', 'python').
-job('Data Scientist', 'machine learning').
-job('Data Scientist', 'statistics').
-job('Software Engineer', 'java').
-job('Software Engineer', 'python').
-job('Software Engineer', 'sql').
-job('Data Analyst', 'excel').
-job('Data Analyst', 'sql').
-job('Data Analyst', 'python').
-job('Marketing Manager', 'marketing').
-job('Marketing Manager', 'social media').
-job('Marketing Manager', 'analytics').
-job('Product Manager', 'product management').
-job('Product Manager', 'agile').
-job('Product Manager', 'communication').
-job('Web Developer', 'html').
-job('Web Developer', 'css').
-job('Web Developer', 'javascript').
-job('DevOps Engineer', 'docker').
-job('DevOps Engineer', 'kubernetes').
-job('DevOps Engineer', 'aws').
-job('UX Designer', 'figma').
-job('UX Designer', 'sketch').
-job('UX Designer', 'user research').
-job('Financial Analyst', 'excel').
-job('Financial Analyst', 'finance').
-job('Financial Analyst', 'modeling').
-job('HR Specialist', 'hr').
-job('HR Specialist', 'recruitment').
-job('HR Specialist', 'employee relations').
-job('Business Analyst', 'business analysis').
-job('Business Analyst', 'excel').
-job('Business Analyst', 'communication').
-job('Quality Assurance Engineer', 'testing').
-job('Quality Assurance Engineer', 'automation').
-job('Quality Assurance Engineer', 'selenium').
-job('Customer Support Specialist', 'customer service').
-job('Customer Support Specialist', 'communication').
-job('Customer Support Specialist', 'troubleshooting').
-job('Graphic Designer', 'photoshop').
-job('Graphic Designer', 'illustrator').
-job('Graphic Designer', 'creativity').
-job('Content Writer', 'writing').
-job('Content Writer', 'seo').
-job('Content Writer', 'research').
-job('Sales Representative', 'sales').
-job('Sales Representative', 'negotiation').
-job('Sales Representative', 'communication').
-job('Social Media Manager', 'social media').
-job('Social Media Manager', 'content creation').
-job('Social Media Manager', 'analytics').
-job('IT Support Technician', 'troubleshooting').
-job('IT Support Technician', 'networking').
-job('IT Support Technician', 'customer service').
-job('Cybersecurity Analyst', 'security').
-job('Cybersecurity Analyst', 'risk assessment').
-job('Cybersecurity Analyst', 'incident response').
-job('Database Administrator', 'sql').
-job('Database Administrator', 'database administration').
-job('Database Administrator', 'performance tuning').
-job('Network Engineer', 'networking').
-job('Network Engineer', 'routing').
-job('Network Engineer', 'switching').
-job('Operations Manager', 'operations').
-job('Operations Manager', 'planning').
-job('Operations Manager', 'leadership').
-job('Recruitment Coordinator', 'recruiting').
-job('Recruitment Coordinator', 'communication').
-job('Recruitment Coordinator', 'interviewing').
-job('Training Specialist', 'training').
-job('Training Specialist', 'facilitation').
-job('Training Specialist', 'documentation').
-job('Legal Assistant', 'legal research').
-job('Legal Assistant', 'communication').
-job('Legal Assistant', 'organization').
-job('Healthcare Coordinator', 'healthcare').
-job('Healthcare Coordinator', 'coordination').
-job('Healthcare Coordinator', 'communication').
-job('Data Engineer', 'python').
-job('Data Engineer', 'sql').
-job('Data Engineer', 'etl').
-job('Search Engine Optimization Specialist', 'seo').
-job('Search Engine Optimization Specialist', 'analytics').
-job('Search Engine Optimization Specialist', 'content').
-job('Mobile App Developer', 'swift').
-job('Mobile App Developer', 'kotlin').
-job('Mobile App Developer', 'react native').
-job('Project Coordinator', 'project coordination').
-job('Project Coordinator', 'communication').
-job('Project Coordinator', 'scheduling').
-job('Event Planner', 'event planning').
-job('Event Planner', 'coordination').
-job('Event Planner', 'budgeting').
-job('Supply Chain Analyst', 'supply chain').
-job('Supply Chain Analyst', 'analytics').
-job('Supply Chain Analyst', 'planning').
-job('Technical Writer', 'technical writing').
-job('Technical Writer', 'documentation').
-job('Technical Writer', 'communication').
-job('Training Manager', 'training').
-job('Training Manager', 'leadership').
-job('Training Manager', 'curriculum design').
-job('E-commerce Specialist', 'ecommerce').
-job('E-commerce Specialist', 'marketing').
-job('E-commerce Specialist', 'analytics').
-job('Research Analyst', 'research').
-job('Research Analyst', 'analysis').
-job('Research Analyst', 'reporting').
-job('Business Development Manager', 'business development').
-job('Business Development Manager', 'sales').
-job('Business Development Manager', 'networking').
-job('Customer Success Manager', 'customer success').
-job('Customer Success Manager', 'relationship management').
-job('Maintenance Technician', 'maintenance').
-job('Maintenance Technician', 'repair').
-job('Maintenance Technician', 'troubleshooting').
-job('Executive Assistant', 'administrative').
-job('Executive Assistant', 'organization').
-job('Executive Assistant', 'communication').
-job('Compliance Officer', 'compliance').
-job('Compliance Officer', 'auditing').
-job('Compliance Officer', 'reporting').
 
-% =====================
-% USER FACTS
-% =====================
-user_skill(1, 'python').
-user_skill(1, 'machine learning').
-user_skill(1, 'statistics').
-user_skill(2, 'java').
-user_skill(2, 'sql').
-user_skill(2, 'javascript').
-user_skill(3, 'excel').
-user_skill(3, 'sql').
-user_skill(3, 'marketing').
-user_skill(4, 'html').
-user_skill(4, 'css').
-user_skill(4, 'javascript').
-user_skill(5, 'finance').
-user_skill(5, 'excel').
-user_skill(5, 'modeling').
-user_skill(6, 'hr').
-user_skill(6, 'communication').
-user_skill(6, 'recruitment').
-user_skill(7, 'figma').
-user_skill(7, 'user research').
-user_skill(7, 'design').
-user_skill(8, 'docker').
-user_skill(8, 'aws').
-user_skill(8, 'python').
-user_skill(9, 'product management').
-user_skill(9, 'agile').
-user_skill(10, 'python').
-user_skill(10, 'sql').
-user_skill(10, 'analytics').
+% Recommendation rules
+recommend(Job, User) :-
+    job(Job, _, _, _),
+    user_skill(User, Skill),
+    job_skill(Job, Skill).
 
-% =====================
-% RULES
-% =====================
-recommend(User, Job) :- user_skill(User, Skill), job(Job, Skill).
+% Find jobs by category
+jobs_in_category(Category, Job) :-
+    job(Job, _, Category, _).
 
-% Advanced rules
-matches_category(User, Category) :- user_skill(User, Skill), job(Job, Skill), job_category(Job, Category).
-job_category(Job, Category) :- job(Job, _), category(Job, Category).
-
-% Query examples:
-% recommend(1, Job).
-% matches_category(1, Category).
+% Check if user has required skills for a job
+user_can_apply(Job, User) :-
+    job(Job, _, _, _),
+    forall(job_skill(Job, Skill), user_skill(User, Skill)).
